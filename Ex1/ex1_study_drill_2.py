@@ -19,3 +19,4 @@ Yay! Printing.
 I\'d rather you \'not\'.
 I "said" do not touch this.
 '''
+print text_to_print
