@@ -71,21 +71,38 @@ print 'My non-metric doppelganger weighs %d kg.' % my_weight_in_kilograms
 
 ```
 # d - Signed integer decimal
+print 'Our poodle, Geddy, is %d years old.' % (3)
 # i - Signed integer decimal
+print 'He gets to go to the local dog park %i days a week.' % (5)
 # o - Unsigned octal
+print 'I am %d years old in base-10 but %o in base-8.' % (29, 35)
 # u - Unsigned decimal
+print 'It\'s already %u degrees Fahrenheit outside in Minnesota' % (-32)
 # x - Unsigned hexadecimal (lowercase)
+print 'I am %d years old in base-10 but %x in hexadecimal format' % (29, 1d)
 # X - Unsigned hexadecimal (uppercase)
+print 'I am %d years old in base-10 but %x in hexadecimal format' % (29, 1D)
 # e - Floating point exponential format (lowercase)
+print '{:.2e}'.format(float(1.2))
 # E - Floating point exponential format (uppercase)
+print '{:.2E}'.format(float(1.2))
 # f - Floating point decimal format
+print 'The interest rate is %.4f%%.' % (3.9245)
 # F - Floating point decimal format
+print 'The cashier gave us $%.2F in change.' % (10.50)
 # g - Same as e if exponent is greater than -4 or less, f otherwise
+print '{:.2g}'.format(float(1.2))
 # G - Same as E if exponent is greater than -4 or less, F otherwise
+print '{:.2G}'.format(float(1.2))
 # c - Single character (accepts integer or single character string)
+print '%c is the last letter of the English alphabet' % ('Z')
 # r - String (converts any python object using repr())
+print '%s and %r' % ('apple', 'apple')
 # s - String (converts any python object using str())
+print 'A %s is a man\'s best friend' % ('poodle')
 # % - No argument is converted, results in a % character in the result
+print 'This will just print a percent sign %'
+print 'I will need to type an extra %% in if I have any instance of substitution in the %s' % ('sentence')
 ```
 ### Try more format characters. ```%r``` is a very useful one. It's like saying "print this no matter what."
 Ah, like ```console.dir``` when I program in JavaScript, I have found this useful for quick debugging in Python. It has always been my understanding that using this essentially
