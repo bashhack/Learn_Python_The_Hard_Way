@@ -1,0 +1,29 @@
+Original:
+Arthur
+Merlin
+Lancelot
+Start variation 1
+Arthur
+Merlin
+Lancelot
+End variation 1
+Start variation 2
+Arthur
+Merlin
+Lancelot
+End variation 2
+Start variation 3
+Arthur
+Merlin
+Lancelot
+End variation 3
+Start variation 4
+Arthur
+Merlin
+Lancelot
+End variation 4
+Start variation 5
+Arthur
+Merlin
+Lancelot
+End variation 5
