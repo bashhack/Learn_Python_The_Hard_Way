@@ -1,0 +1,10 @@
+# Exercise 21: Functions Can Return Something
+## Study Drills
+### We are now doing our own math functions for ```add```, ```subtract```, ```multiply```, and ```divide```. The important thing to notice is the last line where we say ```return a + b``` (in add). What this does is the following:
+
+1. Our function is called with two arguments: ```a``` and ```b```.
+2. We print out what our function is doing, in this case "ADDING."
+3. Then we tell Python to do something kind of backward: we return the addition of ```a + b```. You might say this as, "I add ```a``` and ```b``` then return them."
+4. Python adds the two numbers. Then when the function ends, any line that runs it will be able to assign this ```a + b``` result to a variable.
+
+### As with many other things in this book, you should take this real slow, break it down, and try to trace what's going on. To help there are extra credit to solve a puzzle and learn something cool.
