@@ -1,5 +1,6 @@
 # Project VENV
 venv/
+lpthw-py2/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
